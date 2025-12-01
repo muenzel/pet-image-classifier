@@ -19,7 +19,6 @@ The application is composed of several Python modules that work together to perf
 - **`check_images.py`**: The main script that orchestrates the entire workflow.
 - **`get_input_args.py`**: Retrieves command-line arguments, allowing the user to specify the image directory, CNN model, and dog names file.
 - **`get_pet_labels.py`**: Extracts the ground truth pet labels from the image filenames.
--
 - **`classifier.py`**: This is the core classification function that uses a pretrained model to classify an image.
 - **`classify_images.py`**: Compares the classifier's labels with the pet labels and adds the results to a dictionary.
 - **`adjust_results4_isadog.py`**: Adjusts the results to indicate whether the classifier correctly identified an image as a dog.
